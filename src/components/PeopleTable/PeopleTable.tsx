@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import classnames from 'classnames';
-import { Person } from '../types';
-import { PersonLink } from './PersonLink';
+import { Person } from '../../types';
+import { PersonLink } from '../PersonLink';
 
 interface Props {
   people: Person[];
