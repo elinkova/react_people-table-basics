@@ -9,7 +9,6 @@ interface Props {
 
 export const PeopleTable:React.FC<Props> = ({ people }) => {
   const [selectedPersonSlug, setSelectedPersonSlug] = useState('');
-
   const findPerson = (name: string) => {
     return people.find(person => person.name === name);
   };
